@@ -1,0 +1,16 @@
+services:
+  productpulse-app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATABASE_PATH=/app/data/productpulse.db
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - ADMIN_PASSCODE=${ADMIN_PASSCODE:-}
+    volumes:
+      - productpulse_data:/app/data
+
+volumes:
+  productpulse_data:

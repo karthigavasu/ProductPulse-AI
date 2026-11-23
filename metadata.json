@@ -1,0 +1,6 @@
+{
+  "name": "ProductPulse AI",
+  "description": "AI-Powered Product Analytics & Decision Intelligence Platform for product analytics, NLP feedback analysis, RICE prioritization, roadmaps, A/B experimentation, and business modeling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
